@@ -16,17 +16,17 @@ void main()
     scanf("%f",&basic);
     if(basic>=20000)
         {
-            gross=225*basic;
+            gross=(225*basic)/100;
             printf("\nGross salary is %.2f",gross);
         }
     else if((basic>=10000)&&(basic<20000))
         {
-            gross=215*basic;
+            gross=(215*basic)/100;
             printf("\nGross salary is %.2f",gross);
         }
     else
         {
-            gross=200*basic;
+            gross=(200*basic)/100;
             printf("\nGross salary is %.2f",gross);
         }
 }
